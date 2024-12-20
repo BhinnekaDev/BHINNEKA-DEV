@@ -33,7 +33,7 @@ export const TestimonialsSection = () => {
           {/* Membuat daftar kartu testimonial dengan mapping data */}
           <div className="flex gap-8 flex-none">
             {testimonials.map((testimonial, index) => (
-              <Card key={index} className="max-w-xs md:max-w-md md:p-8">
+              <Card key={index} className="max-w-xs md:max-w-md p-6 md:p-8">
                 {/* Bagian avatar dan informasi klien */}
                 <div className="flex gap-4 items-center">
                   {/* Avatar klien */}

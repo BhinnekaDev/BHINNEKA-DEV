@@ -1,6 +1,7 @@
 import { Header } from "@/sections/Header";
 import { HeroSection } from "@/sections/Hero";
 import { TapeSection } from "@/sections/Tape";
+import { AboutSection } from "@/sections/About";
 import { ProjectsSection } from "@/sections/Projects";
 import { TestimonialsSection } from "@/sections/Testimonials";
 import "slick-carousel/slick/slick.css";
@@ -14,6 +15,7 @@ export default function Home() {
       <ProjectsSection />
       <TapeSection />
       <TestimonialsSection />
+      <AboutSection />
     </div>
   );
 }

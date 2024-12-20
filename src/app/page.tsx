@@ -1,4 +1,5 @@
 import { Header } from "@/sections/Header";
+import { Footer } from "@/sections/Footer";
 import { HeroSection } from "@/sections/Hero";
 import { TapeSection } from "@/sections/Tape";
 import { AboutSection } from "@/sections/About";
@@ -18,6 +19,7 @@ export default function Home() {
       <TestimonialsSection />
       <AboutSection />
       <ContactSection />
+      <Footer />
     </div>
   );
 }

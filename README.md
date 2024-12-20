@@ -53,6 +53,11 @@ Ingin berkolaborasi atau mendiskusikan proyek? Hubungi kami melalui:
 
 ---
 
+## 📷 Preview Halaman
+
+Berikut adalah beberapa tampilan halaman portofolio bhinneka dev :
+![1](https://github.com/user-attachments/assets/eef6e725-26ba-4383-bda9-4cfb00d8d2d7)
+
 ### 🙏 Kontribusi
 
 Kami menghargai kontribusi dan umpan balik dari komunitas. Jika ingin berkontribusi, silakan buat _pull request_ atau buka _issue_ di repositori kami.

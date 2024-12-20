@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Fragment } from "react";
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
 import memojiAvatar1 from "@/assets/images/memoji-avatar-1.png";
@@ -6,25 +7,24 @@ import memojiAvatar2 from "@/assets/images/memoji-avatar-2.png";
 import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
 import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
 import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
-import { Fragment } from "react";
 
 const testimonials = [
   {
     name: "Zahran Aslam Rizqullah, S.Tr.Inst",
-    position: "Employees of the Climatology Station, BMKG, Bengkulu Province",
-    text: "Bhinneka Dev has done a great job on the PTSP project. The system is simple and efficient, helping the community access weather updates, disaster alerts, and environmental info. Their hard work and focus on the project goals have created a reliable and useful solution for everyone.",
+    position: "Employee at the Climatology Station, BMKG, Bengkulu Province",
+    text: "Bhinneka Dev has done an excellent job on the PTSP project. The system is simple yet effective, enabling the community to access weather updates, disaster warnings, and environmental information. Their dedication and focus on the project goals have resulted in a reliable and valuable solution for everyone.",
     avatar: memojiAvatar1,
   },
   {
     name: "Muslikun Sodik, S.K.M",
     position: "Head of the Class B Search and Rescue Office, Bengkulu",
-    text: "Bhinneka Dev has done a great job on the Simore project. The system is simple and efficient, helping the community access weather updates, disaster alerts, and environmental info. Their hard work and focus on the project goals have created a reliable and useful solution for everyone.",
+    text: "Bhinneka Dev has done an outstanding job on the Simore project. The system is efficient and user-friendly, providing the community with access to weather information, disaster alerts, and environmental updates. Their commitment and attention to project goals have led to a dependable and useful solution for all.",
     avatar: memojiAvatar2,
   },
   {
     name: "Agus Komarudin, S.Kom., M.T",
     position: "Vice Dean 3 of the Faculty of Science and Informatics, UNJANI",
-    text: "Bhinneka Dev has done a great job on the FSI Website project. The system is simple and efficient, helping the community access weather updates, disaster alerts, and environmental info. Their hard work and focus on the project goals have created a reliable and useful solution for everyone.",
+    text: "Bhinneka Dev has done an exceptional job on the FSI Website project. The system is intuitive and efficient, helping the community access weather updates, disaster alerts, and environmental data. Their focus and effort on the project have created a reliable and valuable solution.",
     avatar: memojiAvatar3,
   },
 ];

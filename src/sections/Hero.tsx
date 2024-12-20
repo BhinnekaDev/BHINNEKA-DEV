@@ -13,8 +13,8 @@ import Adrian from "@/assets/images/Adrian.png";
 import Nugrah from "@/assets/images/Nugrah.png";
 import Fitri from "@/assets/images/Fitri.png";
 import Hengki from "@/assets/images/Hengki.png";
-import Eyca from "@/assets/images/eyca.png";
-import Marco from "@/assets/images/marco.png";
+import Eyca from "@/assets/images/Eyca.png";
+import Marco from "@/assets/images/Marco.png";
 import ArrowDown from "@/assets/icons/arrow-down.svg"; // Ikon untuk tombol panah bawah
 import grainImage from "@/assets/images/grain.jpg"; // Gambar untuk latar belakang
 import StarIcon from "@/assets/icons/star.svg"; // Ikon untuk bintang

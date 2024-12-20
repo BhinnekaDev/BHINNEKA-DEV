@@ -8,7 +8,6 @@ import { SectionHeader } from "@/components/SectionHeader";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 
-// Data proyek portofolio
 const portfolioProjects = [
   {
     company: "BMKG Bengkulu",
@@ -17,7 +16,7 @@ const portfolioProjects = [
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Reduced bounce rate by 25%" },
     ],
     link: "https://ptsp-three.vercel.app/Beranda",
     image: ptsp,
@@ -27,9 +26,9 @@ const portfolioProjects = [
     year: "2024",
     title: "PTSP BMKG Admin Bengkulu",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Optimized admin dashboard for faster navigation" },
+      { title: "Improved data accuracy by 30%" },
+      { title: "Increased mobile responsiveness by 50%" },
     ],
     link: "https://ptsp-bmkg-admin-wx106uwvv-naufal-fifas-projects.vercel.app/",
     image: ptspAdmin,
@@ -39,9 +38,9 @@ const portfolioProjects = [
     year: "2024",
     title: "SIMORE",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Improved user interface leading to faster response time" },
+      { title: "Reduced page load time by 60%" },
+      { title: "Enhanced mobile usability for easier navigation" },
     ],
     link: "https://basarnas.my.id/",
     image: simore,
@@ -51,16 +50,17 @@ const portfolioProjects = [
     year: "2024",
     title: "FSI",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      {
+        title: "Improved website design resulting in better student engagement",
+      },
+      { title: "Optimized website for higher mobile traffic by 45%" },
+      { title: "Reduced server response time by 40%" },
     ],
     link: "https://fsi.unjani.ac.id/",
     image: fsi,
   },
 ];
 
-// Komponen utama untuk menampilkan bagian proyek
 export const ProjectsSection = () => {
   return (
     <section className="pb-16 lg:py-24">

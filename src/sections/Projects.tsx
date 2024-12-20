@@ -1,6 +1,9 @@
 import Image from "next/image";
 import { Card } from "@/components/Card";
+import fsi from "@/assets/images/FSI.png";
 import ptsp from "@/assets/images/PTSP.png";
+import simore from "@/assets/images/SIMORE.png";
+import ptspAdmin from "@/assets/images/PTSP-ADMIN.png";
 import { SectionHeader } from "@/components/SectionHeader";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -8,16 +11,52 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 // Data proyek portofolio
 const portfolioProjects = [
   {
-    company: "BMKG Bengkulu", // Nama perusahaan
-    year: "2024", // Tahun proyek
-    title: "PTSP BMKG Bengkulu", // Judul proyek
+    company: "BMKG Bengkulu",
+    year: "2024",
+    title: "PTSP BMKG Bengkulu",
     results: [
-      { title: "Enhanced user experience by 40%" }, // Peningkatan pengalaman pengguna
-      { title: "Improved site speed by 50%" }, // Peningkatan kecepatan situs
-      { title: "Increased mobile traffic by 35%" }, // Peningkatan lalu lintas mobile
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://ptsp-three.vercel.app/Beranda", // Tautan proyek
-    image: ptsp, // Gambar proyek
+    link: "https://ptsp-three.vercel.app/Beranda",
+    image: ptsp,
+  },
+  {
+    company: "BMKG Bengkulu",
+    year: "2024",
+    title: "PTSP BMKG Admin Bengkulu",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+    ],
+    link: "https://ptsp-bmkg-admin-wx106uwvv-naufal-fifas-projects.vercel.app/",
+    image: ptspAdmin,
+  },
+  {
+    company: "Basarnas Bengkulu",
+    year: "2024",
+    title: "SIMORE",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+    ],
+    link: "https://basarnas.my.id/",
+    image: simore,
+  },
+  {
+    company: "Fakultas Sains dan Informatika UNJANI",
+    year: "2024",
+    title: "FSI",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+    ],
+    link: "https://fsi.unjani.ac.id/",
+    image: fsi,
   },
 ];
 
@@ -72,7 +111,7 @@ export const ProjectsSection = () => {
                   </ul>
 
                   {/* Tombol tautan ke situs langsung */}
-                  <a href={project.link}>
+                  <a href={project.link} target="_blank">
                     <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-8 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
                       <span>Visit Live Site</span>
                       <ArrowUpRightIcon className="size-4" />

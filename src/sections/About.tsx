@@ -97,11 +97,7 @@ export const AboutSection = () => {
                 digital experiences."
               />
               <ToolBoxItems items={toolBoxItems} className="mt-6" />
-              <ToolBoxItems
-                items={toolBoxItems}
-                className="mt-6"
-                itemsWrapperClassName="-translate-x-1/2"
-              />
+              <ToolBoxItems items={toolBoxItems} className="mt-6" />
             </Card>
           </div>
 

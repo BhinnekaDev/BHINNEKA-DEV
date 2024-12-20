@@ -101,6 +101,7 @@ export const AboutSection = () => {
               />
               {/* Menampilkan item Toolbox */}
               <ToolBoxItems items={toolBoxItems} className="mt-6" />
+              <ToolBoxItems items={toolBoxItems} className="mt-6" />
             </Card>
           </div>
 

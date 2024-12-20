@@ -77,7 +77,10 @@ export const ProjectsSection = () => {
           {portfolioProjects.map((project, index) => (
             <Card
               key={index}
-              className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20"
+              className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky"
+              style={{
+                top: `calc(64px + ${index * 40}px`,
+              }}
             >
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 {/* Bagian Kiri: Informasi proyek */}

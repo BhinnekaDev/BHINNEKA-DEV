@@ -6,6 +6,7 @@ import memojiAvatar2 from "@/assets/images/memoji-avatar-2.png";
 import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
 import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
 import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
+import { Fragment } from "react";
 
 const testimonials = [
   {
@@ -40,34 +41,41 @@ export const TestimonialsSection = () => {
         />
 
         {/* Bagian konten testimonial */}
-        <div className="mt-16 lg:mt-24 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
+        <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
           {/* Membuat daftar kartu testimonial dengan mapping data */}
-          <div className="flex gap-8 flex-none">
-            {testimonials.map((testimonial, index) => (
-              <Card key={index} className="max-w-xs md:max-w-md p-6 md:p-8">
-                {/* Bagian avatar dan informasi klien */}
-                <div className="flex gap-4 items-center">
-                  {/* Avatar klien */}
-                  <div className="size-14 bg-gray-700 inline-flex items-center justify-center rounded-full flex-shrink-0">
-                    <Image
-                      src={testimonial.avatar} // Gambar avatar dari data testimonial
-                      alt={testimonial.name} // Alternatif teks untuk aksesibilitas
-                      className="max-h-full"
-                    />
-                  </div>
-                  {/* Nama dan posisi klien */}
-                  <div>
-                    <div className="font-semibold">{testimonial.name}</div>
-                    <div className="text-sm text-white/40">
-                      {testimonial.position}
+          <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:90s] hover:[animation-play-state:paused] cursor-pointer">
+            {[...new Array(2)].fill(0).map((_, index) => (
+              <Fragment key={index}>
+                {testimonials.map((testimonial, index) => (
+                  <Card
+                    key={index}
+                    className="max-w-xs md:max-w-md p-6 md:p-8 hover:-rotate-3 transition duration-300"
+                  >
+                    {/* Bagian avatar dan informasi klien */}
+                    <div className="flex gap-4 items-center">
+                      {/* Avatar klien */}
+                      <div className="size-14 bg-gray-700 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                        <Image
+                          src={testimonial.avatar} // Gambar avatar dari data testimonial
+                          alt={testimonial.name} // Alternatif teks untuk aksesibilitas
+                          className="max-h-full"
+                        />
+                      </div>
+                      {/* Nama dan posisi klien */}
+                      <div>
+                        <div className="font-semibold">{testimonial.name}</div>
+                        <div className="text-sm text-white/40">
+                          {testimonial.position}
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-                {/* Teks testimoni */}
-                <p className="mt-4 md:mt-6 text-sm md:text-base">
-                  {testimonial.text}
-                </p>
-              </Card>
+                    {/* Teks testimoni */}
+                    <p className="mt-4 md:mt-6 text-sm md:text-base">
+                      {testimonial.text}
+                    </p>
+                  </Card>
+                ))}
+              </Fragment>
             ))}
           </div>
         </div>

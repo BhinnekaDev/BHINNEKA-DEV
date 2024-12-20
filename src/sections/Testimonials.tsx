@@ -11,19 +11,19 @@ import { Fragment } from "react";
 const testimonials = [
   {
     name: "Zahran Aslam Rizqullah, S.Tr.Inst",
-    position: "Pegawai Stasiun Klimatologi BMKG Provinsi Bengkulu",
+    position: "Employees of the Climatology Station, BMKG, Bengkulu Province",
     text: "Bhinneka Dev has done a great job on the PTSP project. The system is simple and efficient, helping the community access weather updates, disaster alerts, and environmental info. Their hard work and focus on the project goals have created a reliable and useful solution for everyone.",
     avatar: memojiAvatar1,
   },
   {
     name: "Muslikun Sodik, S.K.M",
-    position: "Kepala Kantor Pencarian dan Pertolongan Kelas B Bengkulu",
+    position: "Head of the Class B Search and Rescue Office, Bengkulu",
     text: "Bhinneka Dev has done a great job on the Simore project. The system is simple and efficient, helping the community access weather updates, disaster alerts, and environmental info. Their hard work and focus on the project goals have created a reliable and useful solution for everyone.",
     avatar: memojiAvatar2,
   },
   {
     name: "Agus Komarudin, S.Kom., M.T",
-    position: "Wakil Dekan 3 Fakultas Sains dan Informatika UNJANI",
+    position: "Vice Dean 3 of the Faculty of Science and Informatics, UNJANI",
     text: "Bhinneka Dev has done a great job on the FSI Website project. The system is simple and efficient, helping the community access weather updates, disaster alerts, and environmental info. Their hard work and focus on the project goals have created a reliable and useful solution for everyone.",
     avatar: memojiAvatar3,
   },

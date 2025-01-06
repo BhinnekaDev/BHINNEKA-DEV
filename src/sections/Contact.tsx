@@ -1,9 +1,10 @@
+"use client";
 import grainImage from "@/assets/images/grain.jpg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 
 export const ContactSection = () => {
   return (
-    <div className="py-16 pt-12 lg:py-24 lg:pt-20">
+    <section id="contact" className="py-16 pt-12 lg:py-24 lg:pt-20">
       <div className="container">
         <div className="bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900 px-10 py-10 rounded-3xl text-center relative overflow-hidden z-0 md:text-left">
           {/* Background image */}
@@ -26,7 +27,13 @@ export const ContactSection = () => {
 
             {/* Button */}
             <div>
-              <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
+              <button
+                onClick={() =>
+                  window.open("https://wa.me/+6282318334287", "_blank")
+                }
+                type="button"
+                className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900 hover:bg-gray-900/80 hover:text-white transition duration-300"
+              >
                 <span className="font-semibold">Contact Us</span>
                 <ArrowUpRightIcon className="w-4 h-4" />
               </button>
@@ -34,6 +41,6 @@ export const ContactSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

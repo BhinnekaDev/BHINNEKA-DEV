@@ -85,7 +85,7 @@ export const AboutSection = () => {
   const constraintRef = useRef(null);
 
   return (
-    <div className="py-20 lg:py-28">
+    <section id="about" className="py-20 lg:py-28">
       {/* Bagian header */}
       <div className="container">
         {/* Header bagian dengan judul, eyebrow, dan deskripsi */}
@@ -171,6 +171,6 @@ export const AboutSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

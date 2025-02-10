@@ -29,7 +29,7 @@ export const ContactSection = () => {
             <div>
               <button
                 onClick={() =>
-                  window.open("https://wa.me/+6282318334287", "_blank")
+                  window.open("https://wa.me/+6281217044800", "_blank")
                 }
                 type="button"
                 className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900 hover:bg-gray-900/80 hover:text-white transition duration-300"

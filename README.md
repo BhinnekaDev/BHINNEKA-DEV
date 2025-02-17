@@ -49,7 +49,7 @@ Berikut beberapa proyek yang telah kami kerjakan:
 Ingin berkolaborasi atau mendiskusikan proyek? Hubungi kami melalui:
 
 - **Email:** [bhinnekadev24@gmail.com](mailto:bhinnekadev24@gmail.com)
-- **WhatsApp:** [Klik di sini](https://wa.me/+6282318334287)
+- **WhatsApp:** [Klik di sini](https://wa.me/+6281217044800)
 
 ---
 

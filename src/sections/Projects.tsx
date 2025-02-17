@@ -46,7 +46,7 @@ const portfolioProjects = [
     image: simore,
   },
   {
-    company: "Fakultas Sains dan Informatika UNJANI",
+    company: "UNJANI Faculty of Science and Informatics",
     year: "2024",
     title: "FSI",
     results: [

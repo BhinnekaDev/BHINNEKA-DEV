@@ -3,7 +3,7 @@ import ArrowUpRihghtIcon from "@/assets/icons/arrow-up-right.svg";
 const footerLinks = [
   {
     title: "Instagram",
-    url: "https://instagram.com/fif_ovalle",
+    url: "https://www.instagram.com/bhinnekaDev",
   },
 ];
 

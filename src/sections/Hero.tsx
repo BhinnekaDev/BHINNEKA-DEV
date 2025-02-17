@@ -55,7 +55,7 @@ export const HeroSection = () => {
     afterChange: (current: number) => setActiveIndex(current), // Memperbarui index aktif
     customPaging: (i: number) => (
       <div
-        className={`w-2 h-2 rounded-full transition-all duration-300 ${
+        className={`w-2 h-2 mt-9 sm:mt-0 rounded-full transition-all duration-300 ${
           i === activeIndex ? "bg-blue-500" : "bg-white"
         }`}
       />
@@ -198,7 +198,7 @@ export const HeroSection = () => {
           </Slider>
 
           {/* Tag Ketersediaan */}
-          <div className="bg-gray-950 border border-gray-800 px-4 py-2 inline-flex items-center gap-2 rounded-lg mt-6">
+          <div className="bg-gray-950 border border-gray-800 px-4 py-2 inline-flex items-center gap-2 rounded-lg mt-14 sm:mt-6">
             <div className="bg-green-500 w-3 h-3 rounded-full relative">
               <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large" />
             </div>

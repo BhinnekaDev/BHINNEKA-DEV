@@ -3,6 +3,7 @@ import { Card } from "@/components/Card";
 import fsi from "@/assets/images/FSI.png";
 import ptsp from "@/assets/images/PTSP.png";
 import simore from "@/assets/images/SIMORE.png";
+import lokalDatabase from "@/assets/images/LokalDatabase.png";
 import metFlightRadar from "@/assets/images/MetFlightRadar.png";
 import ptspAdmin from "@/assets/images/PTSP-ADMIN.png";
 import { SectionHeader } from "@/components/SectionHeader";
@@ -45,6 +46,24 @@ const portfolioProjects = [
         ],
         link: "https://ptsp-bmkg-admin-wx106uwvv-naufal-fifas-projects.vercel.app/",
         image: ptspAdmin,
+    },
+    {
+        company: "BMKG Bengkulu",
+        year: "2024",
+        title: "Lokal Database BMKG Bengkulu",
+        results: [
+            {
+                title: "Enhanced user experience by 40%, resulting in better user satisfaction.",
+            },
+            {
+                title: "Improved website performance with a 50% increase in loading speed.",
+            },
+            {
+                title: "Reduced bounce rate by 25% through UX and UI optimizations.",
+            },
+        ],
+        link: "https://database-lokal-geofisika-theta.vercel.app/",
+        image: lokalDatabase,
     },
     {
         company: "BMKG Bengkulu",

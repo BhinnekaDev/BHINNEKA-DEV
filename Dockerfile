@@ -28,8 +28,8 @@ COPY --from=builder /app/node_modules ./node_modules
 
 # Set env production
 ENV NODE_ENV=production
-ENV PORT=3000
+ENV PORT=3001
 
-EXPOSE 3000
+EXPOSE 3001
 
 CMD ["npm", "start"]
